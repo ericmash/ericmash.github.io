@@ -775,7 +775,7 @@
 			border-left: 0;
 			border-right: 0;
 			color: #fff;
-			color: rgba(255,255,255,0.75);
+			color: rgba(255,255,255,0.95);
 			font-size: 2.35em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -812,7 +812,7 @@
 		{
 			text-transform: uppercase;
 			color: #fff;
-			color: rgba(255,255,255,0.75);
+			color: rgba(255,255,255,0.95);
 			font-size: 1.5em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -895,7 +895,16 @@
 	#header
 	{
 		margin-bottom: 0;
+        background: rgba(255,255,255,0.25);
 	}
+    #logo
+    {
+        background-image: url('../images/logo.png');
+        display: inline-block;
+        width: 94px;
+        height: 69px;
+        margin-top: 6px;
+    }
 
 	
 /*********************************************************************************/
